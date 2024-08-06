@@ -1,0 +1,25 @@
+demurrage:
+  currency: $
+  rates:
+    - from: 0
+      till: 5
+      rate: 0
+    - from: 6
+      till: 10
+      rate: 50
+    - from: 11
+      till: null # Signifies no Upper limit
+      rate: 80
+
+detention:
+  currency: $
+  rates:
+    - from: 0
+      till: 3
+      rate: 0
+    - from: 4
+      till: 10
+      rate: 70
+    - from: 11
+      till: null # Signifies no Upper limit
+      rate: 100
