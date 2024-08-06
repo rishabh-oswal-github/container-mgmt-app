@@ -1,0 +1,5 @@
+fastapi[standard]
+uvicorn==0.30.5
+pytest==8.3.2
+coverage==7.6.1
+PyYAML==6.0.1
