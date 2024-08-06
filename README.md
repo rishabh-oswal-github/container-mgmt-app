@@ -15,14 +15,15 @@
 │   │   ├── __init__.py
 │   │   ├── config_loader.py
 │   │   ├── fee_calculator.py
-│   └── tests/
-│       ├── __init__.py
-│       ├── test_endpoints.py
-│       ├── test_fee_calculation.py
-│
+│──tests/
+│   ├── __init__.py
+│   ├── test_endpoints.py
+│   ├── test_fee_calculation.py
 ├── Dockerfile
 ├── docker-compose.yml
+└── requirements.txt
 └── README.md
+└── LICENSE
 ```
 
 # Container Management Case Study API
@@ -47,7 +48,7 @@ This project implements a RESTful API to manage demurrage and detention fees for
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository on your machine:
 
 ```bash
    git clone https://github.com/rishabh-oswal-github/container-mgmt-app.git
