@@ -60,6 +60,8 @@ def test_calculate_fees():
     assert response.status_code == 200
     assert response.json() == {
         "container_id": "CONT1",
+        "days_on_terminal": 12,
+        "days_with_consignee": 5,
         "demurrage_fee": 410,
         "detention_fee": 140,
         "total_fee": 550
@@ -70,6 +72,8 @@ def test_get_fees():
     assert response.status_code == 200
     assert response.json() == {
         "container_id": "CONT1",
+        "days_on_terminal": 12,
+        "days_with_consignee": 5,
         "demurrage_fee": 410,
         "detention_fee": 140,
         "total_fee": 550
