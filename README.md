@@ -64,3 +64,8 @@ This project implements a RESTful API to manage demurrage and detention fees for
 3. The API will be available at http://localhost:8000
 
 4. The API Docs will be avialable at http://localhost:8000/docs OR http://localhost:8000/redoc
+
+5. To run the unittests execute the below command
+```bash
+   docker compose run app pytest
+```
